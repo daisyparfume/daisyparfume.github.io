@@ -1,0 +1,258 @@
+
+html {
+    scroll-behavior: smooth;
+    min-height: 2000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -ms-overflow-style: none;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+a, u {
+    text-decoration: none !important;
+}
+
+.credit-zone {
+    width: 100%;
+    height: 60px;
+    border-top: darkgoldenrod 1px solid;
+    text-align: center;
+}
+
+.blog-container {
+    width: 1180px;
+    min-height: 580px;
+    margin: 50px auto;
+    display: block;
+    
+}
+
+.author-credit {
+    display: block;
+    background-color: darkgoldenrod;
+    width: 440px;
+    height: 240px;
+    position: relative;
+    float: right;
+}
+
+.post-container {
+    width: 740px;
+    max-width: 740px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.post-cover {
+    width: 740px;
+    display: block;
+    height: 422px;
+}
+
+.post-image {
+    width: 740px;
+    height: 340px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/14/17/43/mountain-2143877_960_720.jpg');
+    display: block;
+}
+
+.post-title {
+    display: flex;
+    line-height: 1.6em;
+    overflow-y: auto;
+    text-align: left;
+    width: 510px;
+    height: 100px;
+    background-color: #222;
+    color: #fff;
+    position: relative;
+    top: -32px;
+    left: 34px;
+    
+}
+
+.post-title > h2 {
+    padding-left: 22px;
+    font-family: 'Gabriela', serif;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 0.4em;
+}
+.post-info {
+    border-bottom: 1px solid #F5D780;
+    display: inline;
+    margin-left: 38px;
+    opacity: 0.8;
+    padding-bottom: 6px;
+}
+
+.post-info > i {
+    padding-right: 8px;
+}
+
+.post-info > span {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.post-cmt {
+    margin-left: 10px;
+}
+
+.post-text-content {
+    margin-top: 16px;
+    display: block;
+    position: relative;
+    width: 736px;
+    height: 110px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+.text-box {
+    text-overflow: ellipsis;
+    text-align: justify;
+    overflow-y: hidden;
+    height: 110px;
+    width: 666px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    opacity: 0.6;
+    font-weight: 500;
+    white-space: normal;
+    display: block;
+    
+}
+
+.featured {
+    width: 100%;
+    height: 480px;
+}
+
+.slide-wrapper {
+    width: 1180px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 14px;
+    overflow-y: scroll;
+    text-align: center;
+    display: block;
+}
+.slide-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider {
+    display: flex;
+    overflow-y: scroll;
+    flex-direction: column;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.slider > div {
+    min-width: 1180px;
+    height: 480px;
+}
+
+#slide1 {
+    background-image: url('https://livingabroad.in/wp-content/uploads/2019/03/facts-about-france.jpg');
+    background-repeat: no-repeat;
+}
+#slide2 {
+    background-image: url('https://www.sdxcentral.com/wp-content/uploads/2020/01/France-Readies-5G-Spectrum-for-Mid-2020.jpg');
+    background-repeat: no-repeat;
+}
+#slide3 {
+    background-image: url('https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2020/05/05/99095630-8939-11ea-8a72-3b4a65ec119d_image_hires_120702.jpg?itok=ZY7hLkvb&v=1588651630s');
+    background-repeat: no-repeat;
+}
+
+.blog-menu {
+    width: 1180px;
+    height: 60px;
+    background-color: #e4e2e1;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.blog-menu > ul {
+    height: 60px;
+    margin: 0 50px;
+}
+.blog-menu > ul > li {
+    list-style-type: none;
+    min-width: 140px;
+    display: inline-block;
+}
+.blog-menu > ul > li > a{
+    z-index: 10;
+    width: 140px;
+    color: #000;
+    line-height: 60px;
+    padding: 20px 65px;
+    font-weight: bold;
+}
+
+.topmenu {
+    width: 100%;
+    height: 38px;
+    background-color: #ddbe86;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top-home-menu {
+    position: relative;
+    padding: 0 auto;
+}
+
+.top-home-menu > div {
+    margin-left: 80px;
+}
+
+.top-home-menu >div > a {
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+    font-weight: lighter;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+
+.top-home-menu >div > a:hover {
+    color: #000;
+}
+.daisy {
+    width: 100%;
+    position: relative;
+    top: 35px;
+    /* min-width: 100px;
+    min-height: 50px; */
+    height: 220px;
+    
+}
+
+.daisy > a {
+    width: 94%;
+    margin: 0 auto;
+    /* min-width: 100px;
+    min-height: 50px; */
+    margin-top: 30px;
+    height: 190px;
+    background-image: url('./src/daisy.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index: 20;
+    display: block;
+}
