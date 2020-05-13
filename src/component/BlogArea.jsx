@@ -104,7 +104,7 @@ class BlogPost extends Component {
                         </div>
                     </div>
                     <div className='post-info'>
-                        <i class="fa fa-calendar-check-o post-date" aria-hidden="true"></i><span>xx/XX/YYYY</span>
+                        <i class="fa fa-calendar-check-o post-date" aria-hidden="true"></i><span>2020/05/13</span>
                         <i class="fa fa-comment-o post-cmt"></i><span>5</span>
                     </div>
                     <div className='post-text-content'>
