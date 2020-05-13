@@ -22,18 +22,71 @@ a, u {
 .blog-container {
     width: 1180px;
     min-height: 580px;
-    margin: 50px auto;
+    margin: 70px auto;
     display: block;
     
 }
 
 .author-credit {
     display: block;
-    background-color: darkgoldenrod;
-    width: 440px;
+    width: 400px;
     height: 240px;
     position: relative;
     float: right;
+    top: -8px;
+}
+
+.author-title {
+    width: 400px;
+    height: 31px;
+    display: block;
+    position: relative;
+}
+
+.author-title > h2 {
+    font-family: 'Gabriela', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #2e2e2e;
+    font-size: 24px;
+    padding: 10px 0;
+    margin: 0;
+    font-weight: lighter;
+    line-height: 0;
+    width: 320px;
+    display: inline-block;
+}
+
+.author-title::before , .author-title::after {
+    content: '';
+    height: 1px;
+    width: 40px;
+    background: #585858;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+
+}
+
+.author-title::before {
+    margin: 8px 0;
+    left: 0px;
+}
+
+.author-title::after {
+    margin: 8px 0;
+    right: 0px;
+}
+
+.author-summary {
+    text-align: center;
+    width: 330px;
+    margin: 30px auto;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 12px 0;
+    color: gray;
 }
 
 .post-container {
@@ -160,11 +213,11 @@ a, u {
 }
 
 #slide1 {
-    background-image: url('https://livingabroad.in/wp-content/uploads/2019/03/facts-about-france.jpg');
+    background-image: url('https://www.sdxcentral.com/wp-content/uploads/2020/01/France-Readies-5G-Spectrum-for-Mid-2020.jpg');
     background-repeat: no-repeat;
 }
 #slide2 {
-    background-image: url('https://www.sdxcentral.com/wp-content/uploads/2020/01/France-Readies-5G-Spectrum-for-Mid-2020.jpg');
+    background-image: url('https://livingabroad.in/wp-content/uploads/2019/03/facts-about-france.jpg');
     background-repeat: no-repeat;
 }
 #slide3 {
